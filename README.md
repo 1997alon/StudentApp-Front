@@ -1,26 +1,33 @@
-[Click here to visit the Backend](https://github.com/1997alon/StudentApp-Backend)
+# [StudentApp Backend](https://github.com/1997alon/StudentApp-Backend)
 
-**Getting Started**
-To run the frontend:
+## Getting Started
 
-Install Axios with npm install axios:
-then run: npm start
+To get started with the frontend of this project, follow the steps below:
 
+### 1. Install Dependencies
+First, make sure to install the required dependencies. Run the following command to install Axios:
+
+bash
+npm install axios
+Once dependencies are installed, start the application by running:
+npm start
+
+## Project Structure
 The project is organized into the following folders:
 
-pages: Contains main pages for routing (e.g.,Honor Candidates, Students, add and update).
+pages/: Contains main pages for routing (e.g., Honor Candidates, Students, Add, and Update pages).
 
-honor-components: Components specific to Honor Candidates functionality.
+honor-components/: Contains components specific to the Honor Candidates functionality.
 
-student-components: Components specific to Regular Students functionality.
+student-components/: Contains components specific to the Regular Students functionality.
 
-api: Manages API calls for interacting with the backend (e.g., fetching data, filtering).
+api/: Handles API calls for interacting with the backend (e.g., fetching data, filtering).
 
-About the Project
-A simple React-based UI designed to display and manage student data. Features include what i was required to do like:
+## About the Project
+This is a simple React-based UI designed to display and manage student data. Key features include:
 
-Student listing and filtering options.
+Student Listing: View a list of students and filter based on specific criteria.
 
-Separate sections for excellent students and regular students.
+Separate Sections: Dedicated sections for excellent students and regular students.
 
-Intuitive controls based on the project's requirements.
+Intuitive Controls: The UI is designed with user experience in mind, following the project’s functional requirements.
