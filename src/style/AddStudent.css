@@ -1,0 +1,32 @@
+
+
+.student-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.student-form input,
+.student-form select,
+.student-form button {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.student-form button {
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+}
+
+.student-form button:hover {
+    background-color: #45a049;
+}
+
+.form-buttons {
+    display: flex;
+    justify-content: space-between;
+}
